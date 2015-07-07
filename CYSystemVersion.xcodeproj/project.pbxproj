@@ -13,6 +13,7 @@
 		1A3CA42A1B4B86780032C5CC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A3CA4291B4B86780032C5CC /* Images.xcassets */; };
 		1A3CA42D1B4B86780032C5CC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A3CA42B1B4B86780032C5CC /* LaunchScreen.xib */; };
 		1A3CA4391B4B86780032C5CC /* CYSystemVersionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3CA4381B4B86780032C5CC /* CYSystemVersionTests.swift */; };
+		1A3CA4431B4B86930032C5CC /* CYSystemVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3CA4421B4B86930032C5CC /* CYSystemVersion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		1A3CA4321B4B86780032C5CC /* CYSystemVersionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CYSystemVersionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A3CA4371B4B86780032C5CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A3CA4381B4B86780032C5CC /* CYSystemVersionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CYSystemVersionTests.swift; sourceTree = "<group>"; };
+		1A3CA4421B4B86930032C5CC /* CYSystemVersion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYSystemVersion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		1A3CA4141B4B86780032C5CC = {
 			isa = PBXGroup;
 			children = (
+				1A3CA4421B4B86930032C5CC /* CYSystemVersion.swift */,
 				1A3CA41F1B4B86780032C5CC /* CYSystemVersion */,
 				1A3CA4351B4B86780032C5CC /* CYSystemVersionTests */,
 				1A3CA41E1B4B86780032C5CC /* Products */,
@@ -214,6 +217,7 @@
 			files = (
 				1A3CA4251B4B86780032C5CC /* ViewController.swift in Sources */,
 				1A3CA4231B4B86780032C5CC /* AppDelegate.swift in Sources */,
+				1A3CA4431B4B86930032C5CC /* CYSystemVersion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
