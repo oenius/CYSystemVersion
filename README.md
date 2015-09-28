@@ -5,9 +5,7 @@ CYSystemVersion is a kit, which can help u check the ios system version number.
 Usage
 -----
 
-    ```swift
     let version = "version is \(CYSystemVersion.majorVersion()).\(CYSystemVersion.minorVersion()).\(CYSystemVersion.patchVersion())"
-      ```
 License
 -------
 	Copyright 2015 Oenius Jou
