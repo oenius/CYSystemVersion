@@ -10,23 +10,17 @@ import UIKit
 
 class ViewController: UIViewController {
   
-  @IBOutlet weak var label: UILabel!;
-
   override func viewDidLoad() {
     super.viewDidLoad()
-    // Do any additional setup after loading the view, typically from a nib.
-    label.text = "version is \(CYSystemVersion.majorVersion()) . \(CYSystemVersion.minorVersion()).\(CYSystemVersion.patchVersion())"
+    let alert = UIAlertView(title: "System Version",
+      message:"version is \(CYSystemVersion.majorVersion()).\(CYSystemVersion.minorVersion()).\(CYSystemVersion.patchVersion())",
+      delegate:nil,
+      cancelButtonTitle:"OK",
+      otherButtonTitles: "OK")
     
-    let version = NSOperatingSystemVersion(majorVersion: 8, minorVersion: 3, patchVersion: 0)
-    let bo = CYSystemVersion().biggerThanSystemVersion()(version)
+    alert.show()
     
   }
-
-  override func didReceiveMemoryWarning() {
-    super.didReceiveMemoryWarning()
-    // Dispose of any resources that can be recreated.
-  }
-
 
 }
 
